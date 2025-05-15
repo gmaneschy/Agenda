@@ -42,4 +42,22 @@ def tarefa():
 while True:
     schedule.run_pending()
     tm.sleep(1)"""
+"""segundos = int(input("Segundos: "))
+options = ["seconds", "weeks", "day"]
+print(options)
+opt = input("Escolha uma opção: ")
+while True:
+    if opt not in options:
+        continue
+    else:
+        break
+
+
+def tarefa():
+    
+    print("Acordar")
+
+while True:
+    schedule.run_pending()
+    tm.sleep(1)"""
 
